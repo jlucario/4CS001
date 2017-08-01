@@ -1,0 +1,13 @@
+import javax.swing.*
+def txt = JOptionPane.showInputDialog("Choose a three digit number?")
+def number = Integer.parseInt(txt)
+def y = "" + number + number
+println y
+
+def a = Integer.parseInt(y)
+def b = a/7
+println b
+def c = b/11
+println c
+def d = c/13
+println d

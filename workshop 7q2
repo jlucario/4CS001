@@ -1,0 +1,9 @@
+import javax.swing.*
+def sentence = JOptionPane.showInputDialog("Type a sentence")
+println sentence
+def a = sentence.length( )
+def b = sentence.toUpperCase( )
+def c = sentence.toLowerCase( )
+println a
+println b
+println c
